@@ -619,7 +619,7 @@ animation: heroIn 0.9s cubic-bezier(.2,.9,.2,.1);
       }
 
       .services {
-        grid-template-columns: 1fr
+       grid-template-columns: repeat(2, 1fr)
       }
 
       .hero .photo {
